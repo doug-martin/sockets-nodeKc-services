@@ -1,0 +1,21 @@
+{
+    "serviceTwo":{
+        "interval":5000,
+        "maxErrorCount":5
+    },
+    "logging":{
+        "serviceTwo":{
+            "level":"ERROR",
+            "appenders":[
+                {
+                    "type":"RollingFileAppender",
+                    "file":"/var/log/sockets/serviceOne.log"
+                },
+                {
+                    "type":"ConsoleAppender"
+                }
+            ]
+
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name":"sockets-nodeKc-services",
+    "version":"0.0.1",
+    "private":true,
+    "description":"Services for monitor demo",
+    "main":"index.js",
+    "scripts":{
+        "test":"echo \"Error: no test specified\" && exit 1"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git@github.com:doug-martin/sockets-nodeKc-services.git"
+    },
+    "dependencies":{
+        "comb":"~0.1.8",
+        "gofigure":"0.0.2"
+    },
+    "author":"Doug Martin",
+    "license":"MIT"
+}
